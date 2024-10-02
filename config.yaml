@@ -21,14 +21,14 @@ carpentry_description: 'Lesson Description'
 title: 'Fundamentals of Programming' # FIXME
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 2024-10-03 # FIXME: ( ~ means empty, replace with date formatted as above)
+created: ~ # FIXME: ( ~ means empty, replace with date formatted as above)
 
 # Comma-separated list of keywords for the lesson
-keywords: 'python, programming' # FIXME
+keywords: 'python,programming' # FIXME
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'stable' # FIXME
+life_cycle: 'alpha' # FIXME
 
 # License of the lesson
 license: 'CC-BY 4.0'
@@ -85,7 +85,7 @@ learners:
 
 # Information for Instructors
 instructors: 
-- instructor-notes.Rmd
+- instructor-notes.md
 
 # Learner Profiles
 profiles: 
