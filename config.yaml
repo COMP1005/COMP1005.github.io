@@ -40,7 +40,7 @@ source: 'https://github.com/carpentries/workbench-template-rmd' # FIXME
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'v.maxville@curtin.edu.au' # FIXME
+contact: 'COMP1005@curtin.edu.au' # FIXME
 
 # Navigation ------------------------------------------------
 #
