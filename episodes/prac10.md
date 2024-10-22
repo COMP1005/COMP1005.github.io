@@ -199,18 +199,18 @@ click on Practical 10 for the submission page.
 1. **Knowledge:** What is the language used for formatting an Jupyter Notebook?
 3. **Comprehension**: Why did we need to use ```../Prac07``` to run the file in Activity 3?
 5. **Application**: How would you do the following in Jupyter Notebook?
-  1. Execute the current cell
-  2. Clear all the output for all cells
-  3. Run all cells
-  4. Change a cell from coe to markdown
-7. **Analysis**: Pandas lets us easily create a new column in a dataframe e.g. ```df = df.assign(temprange = df["Maxtemp"] - df["Mintemp"]). What code would you write to:
-  1. Print the values in the new column
-  2. Give descriptive information for the new column
-  3. Plot only the new column's data
+   - Execute the current cell
+   - Clear all the output for all cells
+   - Run all cells
+   - Change a cell from coe to markdown
+7. **Analysis**: Pandas lets us easily create a new column in a dataframe e.g. ```df = df.assign(temprange = df["Maxtemp"] - df["Mintemp"])```. What code would you write to:
+   - Print the values in the new column
+   - Give descriptive information for the new column
+   - Plot only the new column's data
 9. **Synthesis**: We went through a workflow in Activity 4 to count words in the story Rumplestiltskin. What parts of the workflow would change to analyse "THE ELVES AND THE SHOEMAKER", also in Grimm's Fairytales
 10. **Evaluation**: Compare the datatypes: Pandas Dataframes, Numpy arrays and lists
-  1. What are the features of each?
-  2. When would you choose to use each of these datatypes?
+    - What are the features of each?
+    - When would you choose to use each of these datatypes?
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
