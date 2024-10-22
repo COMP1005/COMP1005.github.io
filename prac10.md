@@ -199,10 +199,10 @@ click on Practical 10 for the submission page.
 1. **Knowledge:** What is the language used for formatting an Jupyter Notebook?
 3. **Comprehension**: Why did we need to use ```../Prac07``` to run the file in Activity 3?
 5. **Application**: How would you do the following in Jupyter Notebook?
- 1. Execute the current cell
- 2. Clear all the output for all cells
- 3. Run all cells
- 4. Change a cell from coe to markdown
+  1. Execute the current cell
+  2. Clear all the output for all cells
+  3. Run all cells
+  4. Change a cell from coe to markdown
 7. **Analysis**: Pandas lets us easily create a new column in a dataframe e.g. ```df = df.assign(temprange = df["Maxtemp"] - df["Mintemp"]). What code would you write to:
   1. Print the values in the new column
   2. Give descriptive information for the new column
