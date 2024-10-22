@@ -44,10 +44,10 @@ print(tup3)
 
 Modify the code to:
 
-• Create tup4 as tup2 and tup3 added together
-• Print out the length of tup4
-• Print out the values in tup4, omitting the first and last values
-• Create a new tuple, tup5. It should be similar to tup2 – this time holding the 
+* Create tup4 as tup2 and tup3 added together
+* Print out the length of tup4
+* Print out the values in tup4, omitting the first and last values
+* Create a new tuple, tup5. It should be similar to tup2 – this time holding the 
 squares of numbers from 1-10 inclusive.
 
 **Hints:** look at the lecture slides for similar operations. For tup5, you can 
@@ -70,10 +70,10 @@ Extending on the sets example in the lecture notes, we will make sets of actors 
 In Jupyter notebook create six sets based on the movies and actors above. Then do the 
 following, checking the output matches your understanding:
 
-• Print each of the sets
-• Print the intersection of (Pythons and Yellowbeards) & (Goodies and Yorkshiremen)
-• Print the union of (Goodies and Yorkshiremen) & (Pythons and Wandas)
-• Print the difference between (Yellowbeards and Wandas) & (Yorkshiremen and Yorkshiremen2)
+* Print each of the sets
+* Print the intersection of (Pythons and Yellowbeards) & (Goodies and Yorkshiremen)
+* Print the union of (Goodies and Yorkshiremen) & (Pythons and Wandas)
+* Print the difference between (Yellowbeards and Wandas) & (Yorkshiremen and Yorkshiremen2)
 
 The original Four Yorkshiremen Sketch: https://www.youtube.com/watch?v=VKHFZBUTA4k
 
@@ -86,12 +86,12 @@ When you have executed the code, check that your plot of the dice rolls looks co
 Next, enter the commands to do the following (put a comment before each one to describe 
 what you are doing):
 
-• add a plot title "Dice Rolls (1000)"
-• add an x-axis label "Number"
-• add a y-axis label "Count"
-• change the plot colour to green
-• use plt.savefig() to save your plot
-• plot the file in the notebook again
+* add a plot title "Dice Rolls (1000)"
+* add an x-axis label "Number"
+* add a y-axis label "Count"
+* change the plot colour to green
+* use plt.savefig() to save your plot
+* plot the file in the notebook again
 
 Notice how the notebook keeps the status so far so you don't need to repeat the 
 imports and early code to redo the plotting parts.
@@ -104,9 +104,9 @@ for state populations in the lecture notes, calling the program pops.py.
 
 Extend pops.py to do the following:
 
-• Print the populations of each state
-• Print the total population across all states
-• Print the states and populations where the population is less than 3,000,000
+* Print the populations of each state
+* Print the total population across all states
+* Print the states and populations where the population is less than 3,000,000
 
 Test if "New Zealand" is a state and print the result (remember that a dictionary is a set – so use set operations)
 
