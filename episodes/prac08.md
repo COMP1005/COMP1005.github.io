@@ -250,16 +250,14 @@ click on Practical 08 for the submission page.
 
 :::::::::::::::::::::::::::::::::::::::::::::::: checklist
 
-### Reflection - FIXME
+### Reflection
  
-1. **Knowledge:** What are the three different read methods we can use on a file? What is the difference between them?
-3. **Comprehension**: What does the line file2.write(...) do in Activity 4?
-5. **Application**: Given the Game of Life rules, what would happen to the centre
-cell in the following cases:
-![GOL images](fig/P05GOLReviewQ.png)
-7. **Analysis**: What variation of “neighbours” does ```heatsource.py``` use? How would the code change if it were to use the other neighbour approach?
-9. **Synthesis**: How would you create a heat source input file with a 4x4 heat source in the centre of the 10x10 grid?
-10. **Evaluation**: Name two advantages to reading initial data from a file as in the updated ```heatsource.py```.
+1. **Knowledge:** Python has a number of ways to work with the operating system, including the sys, os and shutil packages. Give a quick summary of what is in each packge.
+3. **Comprehension**: What benefits are there to using command line arguments?
+5. **Application**: Scenario: A (this) unit has a hurdle of 40% on the exam - i.e. you need 40% on the exam to pass the unit. If you had all student marks for a semester, how might you use a parameter sweep to explore the pass rate for differnt hurdle percentages?
+7. **Analysis**: What are the similarities and differences between command line argument usage/mechanism in bash scripts and Python scripts?
+9. **Synthesis**: How would you create a parameter sweep with three variables to explore? How would you calculate how many times the experiment will run? (innermost loop)
+10. **Evaluation**: What are the advantages/disadvantages to having separate base and driver code in a parameter sweep? Why don't we just bundle it all together?
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
