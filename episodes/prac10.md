@@ -209,8 +209,8 @@ click on Practical 10 for the submission page.
    - Plot only the new column's data
 9. **Synthesis**: We went through a workflow in Activity 4 to count words in the story Rumplestiltskin. What parts of the workflow would change to analyse "THE ELVES AND THE SHOEMAKER", also in Grimm's Fairytales
 10. **Evaluation**: Compare the datatypes: Pandas Dataframes, Numpy arrays and lists
-   - What are the features of each?
-   - When would you choose to use each of these datatypes?
+    - What are the features of each?
+    - When would you choose to use each of these datatypes?
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
