@@ -80,7 +80,7 @@ The original Four Yorkshiremen Sketch: https://www.youtube.com/watch?v=VKHFZBUTA
 ### Activity 3 - Rolling Dice
 
 Go to the jupyter dashboard and create a new notebook called "dice". Type the program 
-for rolling dice from the Lecture 8 slides into your notebook.
+for rolling dice from the Lecture 10 slides into your notebook.
 
 When you have executed the code, check that your plot of the dice rolls looks correct. 
 Next, enter the commands to do the following (put a comment before each one to describe 
@@ -162,7 +162,7 @@ line before the story was 3634, type "3634dd"
 
 ### Activity 7 - Hello Pandas
  
-Download surveys.csv from the unit website into the Prac08 directory. This file is from the 
+Download surveys.csv from the unit website into the Prac10 directory. This file is from the 
 Data Carpentry tutorial, which is highly recommended - http://www.datacarpentry.org/python-ecology-lesson/ .
 
 Start jupyter again from the Prac08 directory. Create a new notebook called "pandasurvey". 
