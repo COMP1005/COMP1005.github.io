@@ -64,7 +64,8 @@ Extending on the sets example in the lecture notes, we will make sets of actors 
 * **Pythons:** Eric, John, Terry, Michael, Terry, Graham
 * **Goodies:** Bill, Tim, Graham
 * **Wandas:** John, Jamie, Kevin, Michael
-* **Yellowbeards:** Graham, Peter, Marty, Eric, Martin, Madeline, John Yorkshiremen: Tim, John, Graham, Marty
+* **Yellowbeards:** Graham, Peter, Marty, Eric, Martin, Madeline, John
+* **Yorkshiremen:** Tim, John, Graham, Marty
 * **Yorkshiremen2:** Terry, Michael, Eric, Graham, Graham
 
 In Jupyter notebook create six sets based on the movies and actors above. Then do the 
