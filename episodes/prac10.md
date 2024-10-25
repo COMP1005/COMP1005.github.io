@@ -27,8 +27,7 @@ Create a Prac10 directory for this practical and change into it.
 
 Type: jupyter notebook at the command line to start the jupyter notebook in your browser.
 
-Once in the dashboard for jupyter, create a new notebook with the default kernel and call 
-it "tuple" (creates the file "tuple.ipynb")
+Once in the dashboard for jupyter, create a new notebook with the default kernel and call it "tuple" (creates the file "tuple.ipynb")
 
 Create a markdown cell to give a short description: "Testing out jupyter notebook with Tuple task"
 
@@ -47,11 +46,9 @@ Modify the code to:
 * Create tup4 as tup2 and tup3 added together
 * Print out the length of tup4
 * Print out the values in tup4, omitting the first and last values
-* Create a new tuple, tup5. It should be similar to tup2 – this time holding the 
-squares of numbers from 1-10 inclusive.
+* Create a new tuple, tup5. It should be similar to tup2 – this time holding the squares of numbers from 1-10 inclusive.
 
-**Hints:** look at the lecture slides for similar operations. For tup5, you can 
-create a list and convert to a tuple with tup5 = tuple(tuplelist)
+**Hints:** look at the lecture slides for similar operations. For tup5, you can create a list and convert to a tuple with tup5 = tuple(tuplelist)
 
 Save the notebook using the save button, then close and halt the notebook (File menu).
 
@@ -68,8 +65,7 @@ Extending on the sets example in the lecture notes, we will make sets of actors 
 * **Yorkshiremen:** Tim, John, Graham, Marty
 * **Yorkshiremen2:** Terry, Michael, Eric, Graham, Graham
 
-In Jupyter notebook create six sets based on the movies and actors above. Then do the 
-following, checking the output matches your understanding:
+In Jupyter notebook create six sets based on the movies and actors above. Then do the following, checking the output matches your understanding:
 
 * Print each of the sets
 * Print the intersection of (Pythons and Yellowbeards) & (Goodies and Yorkshiremen)
@@ -166,7 +162,7 @@ line before the story was 3634, type "3634dd"
 Download surveys.csv from the unit website into the Prac10 directory. This file is from the 
 Data Carpentry tutorial, which is highly recommended - http://www.datacarpentry.org/python-ecology-lesson/ .
 
-Start jupyter again from the Prac08 directory. Create a new notebook called "pandasurvey". 
+Start jupyter again from the Prac10 directory. Create a new notebook called "surveys". 
  Go through the slides from the lecture and run all the commands in your notebook. Check 
  that your results match those in the lecture slides.
 
@@ -198,7 +194,7 @@ click on Practical 10 for the submission page.
 ### Reflection
  
 1. **Knowledge:** What is the language used for formatting an Jupyter Notebook?
-3. **Comprehension**: Why did we need to use ```../Prac07``` to run the file in Activity 3?
+3. **Comprehension**: Why might we need to use ```../Prac10``` (or similar) to run programs as in Activity 5?
 5. **Application**: How would you do the following in Jupyter Notebook?
    - Execute the current cell
    - Clear all the output for all cells
@@ -210,8 +206,8 @@ click on Practical 10 for the submission page.
    - Plot only the new column's data
 9. **Synthesis**: We went through a workflow in Activity 4 to count words in the story Rumplestiltskin. What parts of the workflow would change to analyse "THE ELVES AND THE SHOEMAKER", also in Grimm's Fairytales
 10. **Evaluation**: Compare the datatypes: Pandas Dataframes, Numpy arrays and lists
-    - What are the features of each?
-    - When would you choose to use each of these datatypes?
+   - What are the features of each?
+   - When would you choose to use each of these datatypes?
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
