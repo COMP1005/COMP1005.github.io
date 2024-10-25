@@ -1,5 +1,5 @@
 ---
-title: "Prac11: Applications: Engineering and Science Guest Lectures"
+title: "Prac11: Applications: Engineering and Science"
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
