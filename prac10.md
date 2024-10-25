@@ -104,8 +104,7 @@ Extend pops.py to do the following:
 * Print the populations of each state
 * Print the total population across all states
 * Print the states and populations where the population is less than 3,000,000
-
-Test if "New Zealand" is a state and print the result (remember that a dictionary is a set – so use set operations)
+* Test if "New Zealand" is a state and print the result (remember that a dictionary is a set – so use set operations)
 
 ### Activity 5 - Running a Python Script in Jupyter
 
@@ -160,11 +159,10 @@ line before the story was 3634, type "3634dd"
 ### Activity 7 - Hello Pandas
  
 Download surveys.csv from the unit website into the Prac10 directory. This file is from the 
-Data Carpentry tutorial, which is highly recommended - http://www.datacarpentry.org/python-ecology-lesson/ .
+Data Carpentry tutorial, which is highly recommended - [http://www.datacarpentry.org/python-ecology-lesson/](http://www.datacarpentry.org/python-ecology-lesson/) .
 
-Start jupyter again from the Prac10 directory. Create a new notebook called "surveys". 
- Go through the slides from the lecture and run all the commands in your notebook. Check 
- that your results match those in the lecture slides.
+Start jupyter again from the Prac10 directory. Create a new notebook called "surveys".  Go through the slides from the lecture 
+and run all the commands in your notebook. Check that your results match those in the lecture slides.
 
 ### Submission
 
@@ -214,7 +212,7 @@ click on Practical 10 for the submission page.
 
 For those who want to explore a bit more of the topics covered in this practical. Note that the challenges are not assessed but may form part of the prac tests or exam.
 
-1. Visit Software Carpentry and Data Carpentry for a range of tutorials
+1. Visit Software Carpentry and Data Carpentry for a range of tutorials - [https://carpentries.org/](https://carpentries.org/)
 2. Sign up for Research Bazaar (ResBaz) when it is available locally - this provides 1-2 days of data analytics training.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
