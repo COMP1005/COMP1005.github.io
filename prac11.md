@@ -19,7 +19,7 @@ title: "Prac11: Applications: Engineering and Science Guest Lectures"
 
 This week we will have some guest lecturers who will share their story and their tech skills to hopefully inspire students to continue to learn data science and computational techniques. Over the semesters, we will build a library of videos and supporting materials, so you can access all preious guest lectures.
 
-### Guest Lecture 1: Geographic Information Systems/Mapping
+### Guest Lecture 1: Geographic Information Systems/Mapping  (8/10/24)
 
 #### Presenter: Dr David McMeekin
 
@@ -27,25 +27,25 @@ David's research interests are varied. Underpinning all of them is the applicati
 
 David is a Senior Lecturer in Computer Science at Curtin, delivering units including Program Design and Implementation (COMP1007) and App Development within the Apple Ecosystem (COMP2010 & MOOC)
 
-### Guest Lecture 2: Binar - Australia's CubeSat Solution 
+### Guest Lecture 2: Binar - Australia's CubeSat Solution  (8/10/24)
 
 #### Presenters: Dr Robert Howie and Tristan Ward
 
 Binar (BIN-ah) is the Noongar word for “fireball”. We’re a space program, building the next generation of Australian small spacecraft, at Curtin University’s Space Science and Technology Centre. Binar will advance our understanding of the solar system and lower the barrier for operating in space. [https://www.binarspace.com/](https://www.binarspace.com/)
 
-Robert is a Research Fellow, Chelsea and Trstan are Embedded Software Engineers
+Robert is a Research Fellow, Tristan is an Embedded Software Engineers
 
 ### Previous Guest Lectures
 
-#### Dr Paul Hancock, Data Scientist Project Lead, Curtin Institute of Data Science (CIDS)
+#### Dr Paul Hancock, Data Scientist Project Lead, Curtin Institute of Data Science (CIDS) (6/5/24)
 
 Paul holds a PhD in Physics from Sydney University. For his thesis, he studied the youngest radio galaxies, using a southern sky survey conducted at 20GHz. He was one of the key software developers for the survey processing. he now works in CIDS as Data Science Lead for the ADACS project, mainly working on ADACS teaching and software support projects, and teaching computer science courses for EECMS (including COMP5005 - Fundamentals of Programming)
 
-#### Professor Paolo Ratieri, School of Molecular and Life Sciences (MLS)
+#### Professor Paolo Ratieri, School of Molecular and Life Sciences (MLS) (13/5/24)
 
 Paolo Raiteri in an expert in atomistic simulations and free energy calculations. He is working on the development and application of such techniques to materials science problems. His main research interest are in computational geochemistry, with particular focus on dissolution and growth of minerals from solution. 
 
-#### Dr Chris Harris, Senior Supercomputing Specialist, Pawsey Supercomputing Centre
+#### Dr Chris Harris, Senior Supercomputing Specialist, Pawsey Supercomputing Centre (13/5/24)
 
 Christopher obtained a PhD in Computational Physics and a Bachelor of Science in Physics and Computer Science through the University of Western Australia. He joined Pawsey in 2012 and was promoted in 2016 to his current position of Team Lead – Senior Supercomputing Specialist. At Pawsey, Christopher has played a pivotal role in the coordination of merit allocation calls, project management of advanced technology procurements, managing Uptake Project calls, and was instrumental in the development and running of GPU training and Pawsey User Forums. He has recently led the migration of researchers to the new Setonix supercomputer.
 
