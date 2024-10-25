@@ -1,75 +1,51 @@
 ---
-title: "Prac11: Applications: Engineering and Science"
+title: "Prac11: Applications: Engineering and Science Guest Lectures"
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- To be updated
-
+- Now you have some knowledge and skills in coding, what will it take to use that ina field of your choice?
+- Who can I talk to that's already in space scince, chemistry, engineering etc?
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-1. Under Construction
+1. Understand how data science and computational techniques are applied in a range of fields
+2. Know the skills and knowledge you have that can be applied, and what additional training and learning you will need to work in future fields
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Introduction
 
-In this practical you will read and write data using text files. You will also work with some grid-based 
-algorithms – testing out different values to see how their parameters affect outcomes. We will also 
-look at using list comprehensions to simplify our code.
+This week we will have some guest lecturers who will share their story and their tech skills to hopefully inspire students to continue to learn data science and computational techniques. Over the semesters, we will build a library of videos and supporting materials, so you can access all preious guest lectures.
 
-### Activity 1 - Reading a CSV File
+### Guest Lecture 1: Geographic Information Systems/Mapping with David McMeekin
 
-Type in the following code, weather.py, for displaying the weather stored in a file:
+David's research interests are varied. Underpinning all of them is the application of technology to solve problems as well as opening up data for other to use. These include the delivery of spatial information through the use of semantic web technologies, the development of technical solutions to assist  autistic people to travel and live independently, the use of Linked Open Data within Digital Humanities, the application and use of technology for vision impaired people, underwater cultural heritage data, technological solutions to standardising physiotherapy testing, to name just a few.
 
-```python
-#
-# weather.py: Print min and max temps from a file
-# (source: http://www.bom.gov.au/climate/)
+David is a Senior Lecturer in Computer Science at Curtin, delivering units including Program Design and Implementation (COMP1007) and App Development within the Apple Ecosystem (COMP2010 & MOOC)
 
-import matplotlib.pyplot as plt
+### Guest Lecture 2: Binar - Australia's CubeSat Solution with Robert Howie and Tristan Ward
 
-fileobj = open(‘marchweather.csv’, ‘r’) 
+Binar (BIN-ah) is the Noongar word for “fireball”. We’re a space program, building the next generation of Australian small spacecraft, at Curtin University’s Space Science and Technology Centre. Binar will advance our understanding of the solar system and lower the barrier for operating in space. [https://www.binarspace.com/](https://www.binarspace.com/)
 
-# add file reading code here 
-line1 = ??
-line2 = ??
+Robert is a Research Fellow, Chelsea and Trstan are Embedded Software Engineers
 
-fileobj.close()
+### Previous Guest Lectures
 
-mins = # add splitting code here, each stirng value will need to be coverted to float
-maxs = # add splitting code here 
-
-dates = range(1,32)
-
-plt.plot(dates, mins, dates, maxs) 
-plt.show()
-```
-
-Modify the code to read the data from the marchweather.csv file – available on Blackboard. 
-You should download it to your Prac5 directory, look at its contents and format, then modify 
-the code accordingly. **Hint:** look at split method, and list comprehensions in lecture slides.
+- Dr Paul Hancock, Data Scientist Project Lead, Curtin Institute of Data Science (CIDS)
+- Professor Paolo Ratieri, School of Molecular and Life Sciences (MLS)
+- Dr Chris Harris, Senior Supercomputing Specialist, Pawsey Supercomputing Centre
 
 ### Submission
 
-Update the README file to include all files created in this practical.
-
-All of your work for this week’s practical should be submitted via Blackboard using
-the Practical 05 link. This should be done as a single "zipped" file.
-Submit the resulting file through Blackboard. (refer to Practical 00 or 01 for instructions
-on zipping files.
- 
-There are no direct marks for these submissions, but they may be taken into account 
-when finalising your mark for the unit. Go to the Assessment link on Blackboard and 
-click on Practical 03 for the submission page.
-
-### And that's the end of Practical 05!
+No submission required
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- FIXME
+- You are at a starting point for your career. Computational and data analytics skills will enhance your abiliaty to do your job, and to work in multidisiplinary teams.
+- Each domain will have it's own preferred languages and environments.
+- Your foundational knowledge built in this unit can be transferred and expanded to match your chosen career.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -77,23 +53,19 @@ click on Practical 03 for the submission page.
 
 ### Reflection
  
-1. **Knowledge:** What are the three different read methods we can use on a file? What is the difference between them?
-3. **Comprehension**: What does the line file2.write(...) do in Activity 4?
-5. **Application**: Given the Game of Life rules, what would happen to the centre
-cell in the following cases:
-![fig/P05GOLReviewQ.png](GOL images)
-7. **Analysis**: What variation of “neighbours” does ```heatsource.py``` use? How would the code change if it were to use the other neighbour approach?
-9. **Synthesis**: How would you create a heat source input file with a 4x4 heat source in the centre of the 10x10 grid?
-10. **Evaluation**: Name two advantages to reading initial data from a file as in the updated ```heatsource.py```.
+For each of the presenters’ domains, make notes of:
+
+1. A scenario of where programming is applied in that area
+2. A short list of tools and skills from this unit you would apply in that scenario
+3. Any additional tools and skills you would need to acquire
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
-For those who want to explore a bit more of the topics covered in this practical. Note that the challenges are not assessed but may form part of the prac tests or exam.
+For those who want to explore a bit more of the topics covered in this practical. 
 
-1. Follow the workflow from Activity 3 to process and plot **February** weather data.
-2. For students based in Australia, find another country's weather data sharing site, or an international one
-If you are not in Australia, see if you can find you local government's weather data sharing site. 
-4. Find and download some **Game of Life*** code and get it running.
+1. List some careers/roles you are interested in. Research online what computational tools and skills are/will be applied in future
+2. If you have suggestions for future guest lectures and careers - share them in a post on Piazza
  
 ::::::::::::::::::::::::::::::::::::::::::::::::
