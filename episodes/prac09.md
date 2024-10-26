@@ -96,12 +96,42 @@ The birthday cake scenario has **one user input: birth year** that affects the t
 
 In the lecture, we introduced a Test Plan - a table where we can systematically define input combinations and the expected outputs. This could be completed before any code is written. Then, the code can be tested against the Test Plan, and the final column **Pass/Fail** completed with respect to the **Expected Result** column.
 
-|Test # | Variable | Variable | Expected result | Pass/Fail |
+|Test # | Variable1 | Variable2 | Expected result | Pass/Fail |
 |-------|----------|----|----|-----| 
 | 1 | value1 | value2 | result1 | P/F |
-| 2 | value1 | value2 | result2 | P/F |
-| 3 | value1 | value2 | result3 | P/F |
-| ... | value1 | value2 | result5 | P/F |
+| 2 | value3 | value4 | result2 | P/F |
+| 3 | value4 | value6 | result3 | P/F |
+| ... | ... | ... | ... | ... |
+
+::::::::::::::::::::::::::::::::::::: 
+
+## Writing a test plan: Testing... testing...
+
+Looking at the birthday cake code, what inputs could you explore across a range of test cases to see if it is working correctly?
+
+:::::::::::::::::::::::: solution 
+
+## Solution
+
+Enter "Bruce" **and then** something other than "Bruce" to test both paths through the code. 
+Note that "Bruce" and "bruce" are not equal. Testing requires at least every path through the code is executed.
+
+::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::
+
+### Activity 4 - Test your birthday cake code
+
+
+### Activity 5 - Hello chatGPT
+
+
+### Activity 6 - Surprise packages
+
+Across the semester, we have imported packages including matplotlib, numpy and random, and learnt how to write and import our own modules. The lecture explained the process to creating and listing our own packages in the Python Package Index.
+
+In this activity, we'll look at the Python Package Index to see the range of packages available, and develop our spidey-senses to know which packages are "safe" and which might be more risky.
+
 
 
 ### Submission
