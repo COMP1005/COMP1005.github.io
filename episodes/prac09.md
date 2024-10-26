@@ -271,6 +271,8 @@ Clicking through to the matplotlib website, there are many projects extending fr
 
 Hopefully this exploration will help you to recognise which packages are safe to work with, and which might need to be avoided. Note that they are all **open source**, so you can see what is inside the code... but errors and malware may be hard to find.  The communities that develop and use packages usually keep these issues under control, as we all want to benefit from the sharing that PyPI (and github) provide.
 
+For those of you interested in coding; shoring your code on github and/or PyPI is an excellent way to get feedback, build up a portfolio and potentially get a job in the future.
+
 ### Submission
 
 Update the README file to include all files created in this practical.
