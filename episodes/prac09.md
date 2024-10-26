@@ -222,6 +222,8 @@ In the lecture, some considerations were listed for reducing risk when choosing 
 
 We'll look at a few examples...
 
+---
+
 **AgeanTools**
 
 In amongst the Astronomy projects is one maintained by one of our guest lecturers: Dr Paul Hancock. With the astronomy filter on, put "Hancock" into the search and you'll find AegeanTools. Click on the Release History and you can see there have been ten releases over six years.
@@ -265,7 +267,7 @@ One last example is matplotlib. According to its github repository, there have b
 
 Clicking through to the matplotlib website, there are many projects extending from matplotlib for various domains - geospacial, finance, astronomy and many more - [https://matplotlib.org/thirdpartypackages/](https://matplotlib.org/thirdpartypackages/).
 
---
+---
 
 Hopefully this exploration will help you to recognise which packages are safe to work with, and which might need to be avoided. Note that they are all **open source**, so you can see what is inside the code... but errors and malware may be hard to find.  The communities that develop and use packages usually keep these issues under control, as we all want to benefit from the sharing that PyPI (and github) provide.
 
