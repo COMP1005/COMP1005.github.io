@@ -40,33 +40,63 @@ print()
 
 Modify the code in PracTest1.py to: 
 
-1. Correct any errors - get the given code working  
+1. Correct any errors - get the given code working  (errors have already been removed)
 2. Change myname and myyear to be your details 
 3. Add code to ask the user their name and year of birth 
 4. In an appropriate loop, test that the year is valid, ask them to re-enter the year and continue looping until it is valid
 5. Based on the difference between your year and the user’s, print one of three comments – if you’re older, they’re older, or if you’re the same age. 
-6. Print out a 3-layer birthday cake with the number of candles to match the user’s age. Candles are staggered in two layers (hint: i%2 for alternating) 
+6. Print out a 3-layer birthday cake with the number of candles to match the user’s age. Candles are staggered in two layers (hint: i%2 for alternating)
 
-### Activity 1 - Running a Jupyter notebook
-
-Create a Prac09 directory for this practical and change into it.
-
-Type: jupyter notebook at the command line to start the jupyter notebook in your browser.
-
-Once in the dashboard for jupyter, create a new notebook with the default kernel and call 
-it "tuple" (creates the file "tuple.ipynb")
-
-Create a markdown cell to give a short description: "Testing out jupyter notebook with Tuple task"
-
-Create a code cell and type in the following:
-```python
-tup1 = ('spam', 'eggs', 42) 
-tup2 = (1, 4, 9, 16, 25 ) 
-tup3 = "yes", "oui", "ja", "si" 
-print(tup1)
-print(tup2) 
-print(tup3)
 ```
+SAMPLE OUTPUT
+Hello, my name is Penny
+What is your name? Sheldon
+What year were you born? 1980
+Birthday greetings, Sheldon the aged!
+Here is a birthday cake with 44 candles!
+
+ * * * * * * * * * *
+*|*|*|*|*|*|*|*|*|*|
+| | | | | | | | | |
+####################
+====================
+####################
+====================
+####################
+```
+
+### Activity 1 - Program Logic
+
+Before starting any coding, it is possible to get a feel for the "shape" of the program. This program will:
+
+1. Ask for input
+2. Validate it in a loop until the year is valid
+3. Give one of three output options
+4. Print out an ASCII birthday cake (in a series/nested loops).
+
+We can then do a mapping from the program shape to the code structures required.
+
+1. print/input
+2. while loop - exit when year is valid
+   - define invalid: could be year > 100 years ago, or >= the current year
+4. if/elif/else - output text based on difference in birth years
+5. calculate age
+6. output cake based on age:
+   - three loops for candles
+   - loop for each layer (or strings) - width based on age
+   - loop through alternating layers (cake and cream)
+
+Make sure you understand how this matches up to the original specification. Sometimes a quick bit of coding can help you understand the problem - it will expose the parts of the problem you don't understand.
+
+You might want to implement a solution to this in Python. Prehaps leaving out the cake printing, as that can take a while... a cake of the correct width without candles is enough for this activity.
+
+### Activity 2 - Test Logic
+
+The birthday cake scenario has **one user input: birth year** that affects the text that is output, and the size of the cake. If an invalid year is entered, the code will loop until it is valid. 
+
+|-------|----------|
+|Test # | Variable |
+|-------|----------|
 
 ### Submission
 
