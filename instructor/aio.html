@@ -963,7 +963,7 @@ directory <strong>with one command</strong>?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <pre><code>cd The/Holy/Grail</code></pre>
 </div>
@@ -1116,7 +1116,7 @@ working correctly?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>Enter “Bruce” <strong>and then</strong> something other than “Bruce”
 to test both paths through the code. Note that “Bruce” and “bruce” are
@@ -1315,7 +1315,7 @@ exit on <strong>zero</strong> instead of negative numbers?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <pre><code>while number != 0:</code></pre>
 </div>
@@ -1429,7 +1429,7 @@ which follows the Algorithm on page 25.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>Time step 0 is the initial step, before the loop. Our loop will go
 through num_iter times, starting at one. Loops usually go from 0 to
@@ -4927,7 +4927,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 </div></section><section id="aio-prac09"><p>Content from <a href="prac09.html">Prac09: Quality and Testing</a></p>
 <hr>
-<p>Last updated on 2024-10-02 |
+<p>Last updated on 2024-10-26 |
 
         <a href="https://github.com/COMP1005/COMP1005.github.io/edit/main/episodes/prac09.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -4954,7 +4954,13 @@ code?</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ol style="list-style-type: decimal">
-<li>DRAFT</li>
+<li>Understand the need for quality in software, how to assess it and
+how to achieve it</li>
+<li>Have an awareness of formal approaches to managing and specifying
+projects</li>
+<li>Understand the value of version control in software projects</li>
+<li>Access and assess packages in the Python Package Index</li>
+<li>Understand the basics of software testing and its importance</li>
 </ol>
 </div>
 </div>
@@ -5015,7 +5021,22 @@ submission page.</p>
 <h3 class="callout-title">Key Points</h3>
 <div class="callout-content">
 <ul>
-<li>FIXME</li>
+<li>The is a whole field, “Software Engineering”, that deals with
+ensuring software quality. We have touched on some of the areas involved
+so that you are aware of them.</li>
+<li>Detailed coverage is beyond this unit, however, if you are involved
+in more complex software development in the future (client, team member,
+coder, tester) there are many resources available to support you.</li>
+<li>In all of our coding, we should consider software quality and ways
+to test our code to be confident it performs as intended.</li>
+<li>Tools that can support coding (version control, IDEs,
+co-pilot/genAI) can improve productivity and reduce risk of losing
+data/code</li>
+<li>WARNING: you will always need to check back that the code/system you
+are developing matches the <strong>requirements</strong> - a perfect
+system that doesn’t solve the problem is worthless (actually it’s worse
+than that, as all the tme and money spent in development has been
+wasted).</li>
 </ul>
 </div>
 </div>
@@ -5029,35 +5050,19 @@ submission page.</p>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
 <li>
-<strong>Knowledge:</strong> What is the language used for formatting
-an Jupyter Notebook?</li>
+<strong>Knowledge:</strong> ?</li>
 <li>
-<strong>Comprehension</strong>: Why did we need to use
-<code>../Prac07</code> to run the file in Activity 3?</li>
+<strong>Comprehension</strong>: ?</li>
 <li>
-<strong>Application</strong>: How would you do the following in
-Jupyter Notebook?</li>
-<li>Execute the current cell</li>
-<li>Clear all the output for all cells</li>
-<li>Run all cells</li>
-<li>Change a cell from coe to markdown</li>
+<strong>Application</strong>: ?</li>
 <li>
-<strong>Analysis</strong>: Pandas lets us easily create a new column
-in a dataframe e.g. ```df = df.assign(temprange = df[“Maxtemp”] -
-df[“Mintemp”]). What code would you write to:</li>
-<li>Print the values in the new column</li>
-<li>Give descriptive information for the new column</li>
-<li>Plot only the new column’s data</li>
+<strong>Analysis</strong>: ?</li>
 <li>
-<strong>Synthesis</strong>: We went through a workflow in Activity 4
-to count words in the story Rumplestiltskin. What parts of the workflow
-would change to analyse “THE ELVES AND THE SHOEMAKER”, also in Grimm’s
-Fairytales</li>
+<strong>Synthesis</strong>: How does having a well-defined program
+and test design help with managing larger projects? (larger = longer
+duration, more coders)</li>
 <li>
-<strong>Evaluation</strong>: Compare the datatypes: Pandas
-Dataframes, Numpy arrays and lists</li>
-<li>What are the features of each?</li>
-<li>When would you choose to use each of these datatypes?</li>
+<strong>Evaluation</strong>: ?</li>
 </ol>
 </div>
 </div>
@@ -5073,7 +5078,14 @@ Dataframes, Numpy arrays and lists</li>
 this practical. Note that the challenges are not assessed but may form
 part of the prac tests or exam.</p>
 <ol style="list-style-type: decimal">
-<li>TBA</li>
+<li>For a given programming scenario, go through the process of test
+driven development. Test accounts, past PT1?
+<ol style="list-style-type: decimal">
+<li>Set up a table for your test cases</li>
+<li>Write code for your tests cases</li>
+<li>Write code to implement the problem solution</li>
+</ol>
+</li>
 </ol>
 </div>
 </div>
@@ -5675,9 +5687,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "creativeWorkStatus": "active",
   "url": "https://COMP1005.github.io/COMP1005.github.io/instructor/aio.html",
   "identifier": "https://COMP1005.github.io/COMP1005.github.io/instructor/aio.html",
-  "dateCreated": "2024-10-25",
-  "dateModified": "2024-10-25",
-  "datePublished": "2024-10-25"
+  "dateCreated": "2024-10-26",
+  "dateModified": "2024-10-26",
+  "datePublished": "2024-10-26"
 }
 
   </script><script>
