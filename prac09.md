@@ -96,9 +96,8 @@ The birthday cake scenario has **one user input: birth year** that affects the t
 
 In the lecture, we introduced a Test Plan - a table where we can systematically define input combinations and the expected outputs. This could be completed before any code is written. Then, the code can be tested against the Test Plan, and the final column **Pass/Fail** completed with respect to the **Expected Result** column.
 
-|-------|----------| | | |
 |Test # | Variable | Variable | Expected result | Pass/Fail |
-|-------|----------| | | | 
+|-------|----------|----|----|-----| 
 | 1 | value1 | value2 | result1 | P/F |
 | 2 | value1 | value2 | result2 | P/F |
 | 3 | value1 | value2 | result3 | P/F |
