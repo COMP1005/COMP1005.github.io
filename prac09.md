@@ -103,22 +103,19 @@ In the lecture, we introduced a Test Plan - a table where we can systematically 
 | 3 | value4 | value6 | result3 | P/F |
 | ... | ... | ... | ... | ... |
 
-::::::::::::::::::::::::::::::::::::: challenge
 
-## Writing a test plan: Testing... testing...
+#### Writing a test plan: Testing... testing...
 
-Looking at the birthday cake code, what inputs could you explore across a range of test cases to see if it is working correctly?
+Looking at the birthday cake code, what inputs could you explore across a range of test cases to see if it is working correctly? Consider valid and invalid values, as well as values that produce the three variations of output text. 
 
-:::::::::::::::::::::::: solution 
+Write a Test Plan for the birthday cake scenario. It should include:
 
-## Solution
-
-Enter "Bruce" **and then** something other than "Bruce" to test both paths through the code. 
-Note that "Bruce" and "bruce" are not equal. Testing requires at least every path through the code is executed.
-
-::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::
+- variables myyear and youryear
+- youryear - invalid low
+- youryear - invalid high
+- valid and younger
+- valid and older
+- valid and same age
 
 ### Activity 4 - Test your birthday cake code
 
@@ -141,9 +138,64 @@ Whether your testing is formal or informal, a systematic approach will help you 
 
 ### Activity 5 - Hello generative AI
 
-Take the scenario description from the start of the practical and feed it into a generative AI tool, e.g. chatGPT.
+Take the scenario description from the start of the practical and feed it into a generative AI tool, e.g. chatGPT. Copy the code into a python file in your Prac09 directory. You can call it cakeGPT.py.
 
+Look through the code to see if there are obvious errors. Below is an example of cakeGPT.py code:
 
+``` python
+# Update the variables with your details
+myname = "Your Name"  # Change this to your name
+myyear = 2023  # Change this to your current year
+
+print(f"Hello, my name is {myname}.")
+
+# Get user's name
+user_name = input("What is your name? ")
+
+# Get user's year of birth with validation
+while True:
+    try:
+        birth_year = int(input("Please enter your year of birth: "))
+        if birth_year > 0 and birth_year <= myyear:
+            break
+        else:
+            print("Please enter a valid year of birth.")
+    except ValueError:
+        print("Invalid input. Please enter a numerical year.")
+
+# Calculate age
+user_age = myyear - birth_year
+
+# Compare ages and print appropriate message
+if user_age > (myyear - 898):
+    print(f"{user_name}, you are older than me.")
+elif user_age < (myyear - 898):
+    print(f"{user_name}, I am older than you.")
+else:
+    print(f"Hey {user_name}, we are the same age!")
+
+# Print a 3-layer birthday cake with candles
+print("Here is your birthday cake with candles:")
+for layer in range(3):
+    if layer == 0:  # Top layer
+        print("   " + "🎂🎂🎂🎂🎂")  # Adjust number of candles as needed
+    elif layer == 1:  # Middle layer
+        print("  " + "🎂" * (user_age // 2))  # Staggered candles
+    else:  # Bottom layer
+        print(" " + "🎂" * (user_age // 2 + user_age % 2))  # Staggered candles
+```
+
+Apart from the use of **break** - which we don't allow in this unit, there are *many* errors and mistakes on understanding the code requirements.
+
+Some sample output:
+
+![cakeGPT Output](fig/cakeGPT.png)
+
+Now use your Test Plan to check the cakeGPT code (from above, or from your own prompt)
+
+Did the test plan find even more errors?
+
+It's important to consider the risks when using generative AI. The code (and text) it produces will **look** appropriate and correct, hoever, it required a lot of proofing and may not include coding standards or other knowledge that may be implied in the scenario/specification.
 
 ### Activity 6 - Surprise packages
 
@@ -186,8 +238,10 @@ click on Practical 09 for the submission page.
 3. **Comprehension**: ?
 5. **Application**: ?
 7. **Analysis**: ?
-9. **Synthesis**: How does having a well-defined program and test design help with managing larger projects? (larger = longer duration, more coders)
-10. **Evaluation**: ?
+9. **Synthesis**: How does having a well-defined program and test design help with managing larger projects? (larger => longer duration, more coders)
+10. **Evaluation**: You are leading a project which includes the development of code. The
+programmers have asked to be able to use generative AI (e.g. ChatGPT/copilot) to help
+them to develop code more quickly. What risks might that create for the project? What processes could you put in place to ensure the quality and correctness of the code??
     
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
