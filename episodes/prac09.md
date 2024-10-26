@@ -94,9 +94,16 @@ You might want to implement a solution to this in Python. Prehaps leaving out th
 
 The birthday cake scenario has **one user input: birth year** that affects the text that is output, and the size of the cake. If an invalid year is entered, the code will loop until it is valid. 
 
-|-------|----------|
-|Test # | Variable |
-|-------|----------|
+In the lecture, we introduced a Test Plan - a table where we can systematically define input combinations and the expected outputs. This could be completed before any code is written. Then, the code can be tested against the Test Plan, and the final column **Pass/Fail** completed with respect to the **Expected Result** column.
+
+|-------|----------| | | |
+|Test # | Variable | Variable | Expected result | Pass/Fail |
+|-------|----------| | | | 
+| 1 | value1 | value2 | result1 | P/F |
+| 2 | value1 | value2 | result2 | P/F |
+| 3 | value1 | value2 | result3 | P/F |
+| ... | value1 | value2 | result5 | P/F |
+
 
 ### Submission
 
