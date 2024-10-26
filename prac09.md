@@ -189,13 +189,13 @@ Apart from the use of **break** - which we don't allow in this unit, there are *
 
 Some sample output:
 
-![cakeGPT Output](fig/cakeGPT.png)
+![cakeGPT Output](fig/P09cakeGPT.png)
 
 Now use your Test Plan to check the cakeGPT code (from above, or from your own prompt)
 
 Did the test plan find even more errors?
 
-It's important to consider the risks when using generative AI. The code (and text) it produces will **look** appropriate and correct, hoever, it required a lot of proofing and may not include coding standards or other knowledge that may be implied in the scenario/specification.
+It's important to consider the risks when using generative AI. The code (and text) it produces will **look** appropriate and correct, however, it required a lot of proofing and may not include coding standards or other knowledge that may be implied in the scenario/specification.
 
 ### Activity 6 - Surprise packages
 
@@ -203,6 +203,7 @@ Across the semester, we have imported packages including matplotlib, numpy and r
 
 In this activity, we'll look at the Python Package Index to see the range of packages available, and develop our spidey-senses to know which packages are "safe" and which might be more risky.
 
+Open the Python Package Index website in a web browser: [https://pypi.org](https://pypi.org)
 
 
 ### Submission
