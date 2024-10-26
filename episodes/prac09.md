@@ -122,8 +122,27 @@ Note that "Bruce" and "bruce" are not equal. Testing requires at least every pat
 
 ### Activity 4 - Test your birthday cake code
 
+Based on the Test Plan you created in the previous activity, test the code you wrote for the birthday cake scenario.
 
-### Activity 5 - Hello chatGPT
+Did you pass all the tests? Common issues might be:
+
+- incorrect calculation of age
+- not converting birth year to an integer
+- outputting the wrong message
+- incorrect validation (letting invalid values through, or flagging valid values as invalid)
+- If you printed the cake:
+   - wrong size cake - width should equal age
+   - not enough layers - should be cake/cream/cake/cream/cake
+   - candle problems - need to have age # flames (*), age # of candles (|) and spaces elsewhere 
+
+Some of these will show as an individual test fail, while others will affect many test results. Finding the root cause of an error is a skill that develops with experience. 
+
+Whether your testing is formal or informal, a systematic approach will help you to diagnose problems more quickly. It's also recommended that you test regularly, so you can see and fix issues early.  
+
+### Activity 5 - Hello generative AI
+
+Take the scenario description from the start of the practical and feed it into a generative AI tool, e.g. chatGPT.
+
 
 
 ### Activity 6 - Surprise packages
