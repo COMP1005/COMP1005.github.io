@@ -103,7 +103,7 @@ In the lecture, we introduced a Test Plan - a table where we can systematically 
 | 3 | value4 | value6 | result3 | P/F |
 | ... | ... | ... | ... | ... |
 
-::::::::::::::::::::::::::::::::::::: 
+::::::::::::::::::::::::::::::::::::: challenge
 
 ## Writing a test plan: Testing... testing...
 
@@ -151,7 +151,7 @@ click on Practical 09 for the submission page.
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- The is a whole field, "Software Engineering", that deals with ensuring software quality. We have touched on some of the areas involved so that you are aware of them.
+- There is a whole field, "Software Engineering", that deals with ensuring software quality. We have touched on some of the areas involved so that you are aware of them.
 - Detailed coverage is beyond this unit, however, if you are involved in more complex software development in the future (client, team member, coder, tester) there are many resources available to support you.
 - In all of our coding, we should consider software quality and ways to test our code to be confident it performs as intended.
 - Tools that can support coding (version control, IDEs, co-pilot/genAI) can improve productivity and reduce risk of losing data/code
