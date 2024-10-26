@@ -12,7 +12,11 @@ title: "Prac09: Quality and Testing"
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-1. DRAFT
+1. Understand the need for quality in software, how to assess it and how to achieve it
+2. Have an awareness of formal approaches to managing and specifying projects
+3. Understand the value of version control in software projects
+4. Access and assess packages in the Python Package Index
+5. Understand the basics of software testing and its importance
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -58,7 +62,11 @@ click on Practical 09 for the submission page.
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- FIXME
+- The is a whole field, "Software Engineering", that deals with ensuring software quality. We have touched on some of the areas involved so that you are aware of them.
+- Detailed coverage is beyond this unit, however, if you are involved in more complex software development in the future (client, team member, coder, tester) there are many resources available to support you.
+- In all of our coding, we should consider software quality and ways to test our code to be confident it performs as intended.
+- Tools that can support coding (version control, IDEs, co-pilot/genAI) can improve productivity and reduce risk of losing data/code
+- WARNING: you will always need to check back that the code/system you are developing matches the **requirements** - a perfect system that doesn't solve the problem is worthless (actually it's worse than that, as all the tme and money spent in development has been wasted). 
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -66,27 +74,22 @@ click on Practical 09 for the submission page.
 
 ### Reflection
  
-1. **Knowledge:** What is the language used for formatting an Jupyter Notebook?
-3. **Comprehension**: Why did we need to use ```../Prac07``` to run the file in Activity 3?
-5. **Application**: How would you do the following in Jupyter Notebook?
- 1. Execute the current cell
- 2. Clear all the output for all cells
- 3. Run all cells
- 4. Change a cell from coe to markdown
-7. **Analysis**: Pandas lets us easily create a new column in a dataframe e.g. ```df = df.assign(temprange = df["Maxtemp"] - df["Mintemp"]). What code would you write to:
-  1. Print the values in the new column
-  2. Give descriptive information for the new column
-  3. Plot only the new column's data
-9. **Synthesis**: We went through a workflow in Activity 4 to count words in the story Rumplestiltskin. What parts of the workflow would change to analyse "THE ELVES AND THE SHOEMAKER", also in Grimm's Fairytales
-10. **Evaluation**: Compare the datatypes: Pandas Dataframes, Numpy arrays and lists
-  1. What are the features of each?
-  2. When would you choose to use each of these datatypes?
+1. **Knowledge:** ?
+3. **Comprehension**: ?
+5. **Application**: ?
+7. **Analysis**: ?
+9. **Synthesis**: How does having a well-defined program and test design help with managing larger projects? (larger = longer duration, more coders)
+10. **Evaluation**: ?
+    
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
 For those who want to explore a bit more of the topics covered in this practical. Note that the challenges are not assessed but may form part of the prac tests or exam.
 
-1. TBA
+1. For a given programming scenario, go through the process of test driven development. Test accounts, past PT1?
+   1. Set up a table for your test cases
+   2. Write code for your tests cases
+   3. Write code to implement the problem solution
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
