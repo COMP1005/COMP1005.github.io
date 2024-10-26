@@ -436,7 +436,8 @@ semester.</p>
 <span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a><span class="bu">print</span>()</span></code></pre>
 </div>
 <p>Modify the code in PracTest1.py to:</p>
-<ol style="list-style-type: decimal"><li>Correct any errors - get the given code working<br></li>
+<ol style="list-style-type: decimal"><li>Correct any errors - get the given code working (errors have already
+been removed)</li>
 <li>Change myname and myyear to be your details</li>
 <li>Add code to ask the user their name and year of birth</li>
 <li>In an appropriate loop, test that the year is valid, ask them to
@@ -447,27 +448,59 @@ same age.</li>
 <li>Print out a 3-layer birthday cake with the number of candles to
 match the user’s age. Candles are staggered in two layers (hint: i%2 for
 alternating)</li>
-</ol></div>
-<div class="section level3">
-<h3 id="activity-1---running-a-jupyter-notebook">Activity 1 - Running a Jupyter notebook<a class="anchor" aria-label="anchor" href="#activity-1---running-a-jupyter-notebook"></a></h3>
-<p>Create a Prac09 directory for this practical and change into it.</p>
-<p>Type: jupyter notebook at the command line to start the jupyter
-notebook in your browser.</p>
-<p>Once in the dashboard for jupyter, create a new notebook with the
-default kernel and call it “tuple” (creates the file “tuple.ipynb”)</p>
-<p>Create a markdown cell to give a short description: “Testing out
-jupyter notebook with Tuple task”</p>
-<p>Create a code cell and type in the following:</p>
-<div class="codewrapper sourceCode" id="cb2">
-<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>tup1 <span class="op">=</span> (<span class="st">'spam'</span>, <span class="st">'eggs'</span>, <span class="dv">42</span>) </span>
-<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a>tup2 <span class="op">=</span> (<span class="dv">1</span>, <span class="dv">4</span>, <span class="dv">9</span>, <span class="dv">16</span>, <span class="dv">25</span> ) </span>
-<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a>tup3 <span class="op">=</span> <span class="st">"yes"</span>, <span class="st">"oui"</span>, <span class="st">"ja"</span>, <span class="st">"si"</span> </span>
-<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a><span class="bu">print</span>(tup1)</span>
-<span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a><span class="bu">print</span>(tup2) </span>
-<span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a><span class="bu">print</span>(tup3)</span></code></pre>
+</ol><pre><code>SAMPLE OUTPUT
+Hello, my name is Penny
+What is your name? Sheldon
+What year were you born? 1980
+Birthday greetings, Sheldon the aged!
+Here is a birthday cake with 44 candles!
+
+ * * * * * * * * * *
+*|*|*|*|*|*|*|*|*|*|
+| | | | | | | | | |
+####################
+====================
+####################
+====================
+####################</code></pre>
 </div>
+<div class="section level3">
+<h3 id="activity-1---program-logic">Activity 1 - Program Logic<a class="anchor" aria-label="anchor" href="#activity-1---program-logic"></a></h3>
+<p>Before starting any coding, it is possible to get a feel for the
+“shape” of the program. This program will:</p>
+<ol style="list-style-type: decimal"><li>Ask for input</li>
+<li>Validate it in a loop until the year is valid</li>
+<li>Give one of three output options</li>
+<li>Print out an ASCII birthday cake (in a series/nested loops).</li>
+</ol><p>We can then do a mapping from the program shape to the code
+structures required.</p>
+<ol style="list-style-type: decimal"><li>print/input</li>
+<li>while loop - exit when year is valid
+<ul><li>define invalid: could be year &gt; 100 years ago, or &gt;= the
+current year</li>
+</ul></li>
+<li>if/elif/else - output text based on difference in birth years</li>
+<li>calculate age</li>
+<li>output cake based on age:
+<ul><li>three loops for candles</li>
+<li>loop for each layer (or strings) - width based on age</li>
+<li>loop through alternating layers (cake and cream)</li>
+</ul></li>
+</ol><p>Make sure you understand how this matches up to the original
+specification. Sometimes a quick bit of coding can help you understand
+the problem - it will expose the parts of the problem you don’t
+understand.</p>
+<p>You might want to implement a solution to this in Python. Prehaps
+leaving out the cake printing, as that can take a while… a cake of the
+correct width without candles is enough for this activity.</p>
+</div>
+<div class="section level3">
+<h3 id="activity-2---test-logic">Activity 2 - Test Logic<a class="anchor" aria-label="anchor" href="#activity-2---test-logic"></a></h3>
+<p>The birthday cake scenario has <strong>one user input: birth
+year</strong> that affects the text that is output, and the size of the
+cake. If an invalid year is entered, the code will loop until it is
+valid.</p>
+<p>|——-|———-| |Test # | Variable | |——-|———-|</p>
 </div>
 <div class="section level3">
 <h3 id="submission">Submission<a class="anchor" aria-label="anchor" href="#submission"></a></h3>
