@@ -531,33 +531,21 @@ tested against the Test Plan, and the final column
 <td>…</td>
 <td>…</td>
 <td>…</td>
-</tr></tbody></table><div id="writing-a-test-plan-testing-testing" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="writing-a-test-plan-testing-testing" class="callout-inner">
-<h3 class="callout-title">Writing a test plan: Testing… testing…</h3>
-<div class="callout-content">
+</tr></tbody></table><div class="section level4">
+<h4 id="writing-a-test-plan-testing-testing">Writing a test plan: Testing… testing…<a class="anchor" aria-label="anchor" href="#writing-a-test-plan-testing-testing"></a></h4>
 <p>Looking at the birthday cake code, what inputs could you explore
-across a range of test cases to see if it is working correctly?</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
-<div class="accordion-body">
-<p>Enter “Bruce” <strong>and then</strong> something other than “Bruce”
-to test both paths through the code. Note that “Bruce” and “bruce” are
-not equal. Testing requires at least every path through the code is
-executed.</p>
-</div>
-</div>
-</div>
-</div>
+across a range of test cases to see if it is working correctly? Consider
+valid and invalid values, as well as values that produce the three
+variations of output text.</p>
+<p>Write a Test Plan for the birthday cake scenario. It should
+include:</p>
+<ul><li>variables myyear and youryear</li>
+<li>youryear - invalid low</li>
+<li>youryear - invalid high</li>
+<li>valid and younger</li>
+<li>valid and older</li>
+<li>valid and same age</li>
+</ul></div>
 </div>
 <div class="section level3">
 <h3 id="activity-4---test-your-birthday-cake-code">Activity 4 - Test your birthday cake code<a class="anchor" aria-label="anchor" href="#activity-4---test-your-birthday-cake-code"></a></h3>
@@ -585,7 +573,67 @@ that you test regularly, so you can see and fix issues early.</p>
 <div class="section level3">
 <h3 id="activity-5---hello-generative-ai">Activity 5 - Hello generative AI<a class="anchor" aria-label="anchor" href="#activity-5---hello-generative-ai"></a></h3>
 <p>Take the scenario description from the start of the practical and
-feed it into a generative AI tool, e.g. chatGPT.</p>
+feed it into a generative AI tool, e.g. chatGPT. Copy the code into a
+python file in your Prac09 directory. You can call it cakeGPT.py.</p>
+<p>Look through the code to see if there are obvious errors. Below is an
+example of cakeGPT.py code:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="co"># Update the variables with your details</span></span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a>myname <span class="op">=</span> <span class="st">"Your Name"</span>  <span class="co"># Change this to your name</span></span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a>myyear <span class="op">=</span> <span class="dv">2023</span>  <span class="co"># Change this to your current year</span></span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Hello, my name is </span><span class="sc">{</span>myname<span class="sc">}</span><span class="ss">."</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" tabindex="-1"></a><span class="co"># Get user's name</span></span>
+<span id="cb3-8"><a href="#cb3-8" tabindex="-1"></a>user_name <span class="op">=</span> <span class="bu">input</span>(<span class="st">"What is your name? "</span>)</span>
+<span id="cb3-9"><a href="#cb3-9" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" tabindex="-1"></a><span class="co"># Get user's year of birth with validation</span></span>
+<span id="cb3-11"><a href="#cb3-11" tabindex="-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb3-12"><a href="#cb3-12" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb3-13"><a href="#cb3-13" tabindex="-1"></a>        birth_year <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Please enter your year of birth: "</span>))</span>
+<span id="cb3-14"><a href="#cb3-14" tabindex="-1"></a>        <span class="cf">if</span> birth_year <span class="op">&gt;</span> <span class="dv">0</span> <span class="kw">and</span> birth_year <span class="op">&lt;=</span> myyear:</span>
+<span id="cb3-15"><a href="#cb3-15" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb3-16"><a href="#cb3-16" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb3-17"><a href="#cb3-17" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"Please enter a valid year of birth."</span>)</span>
+<span id="cb3-18"><a href="#cb3-18" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">ValueError</span>:</span>
+<span id="cb3-19"><a href="#cb3-19" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"Invalid input. Please enter a numerical year."</span>)</span>
+<span id="cb3-20"><a href="#cb3-20" tabindex="-1"></a></span>
+<span id="cb3-21"><a href="#cb3-21" tabindex="-1"></a><span class="co"># Calculate age</span></span>
+<span id="cb3-22"><a href="#cb3-22" tabindex="-1"></a>user_age <span class="op">=</span> myyear <span class="op">-</span> birth_year</span>
+<span id="cb3-23"><a href="#cb3-23" tabindex="-1"></a></span>
+<span id="cb3-24"><a href="#cb3-24" tabindex="-1"></a><span class="co"># Compare ages and print appropriate message</span></span>
+<span id="cb3-25"><a href="#cb3-25" tabindex="-1"></a><span class="cf">if</span> user_age <span class="op">&gt;</span> (myyear <span class="op">-</span> <span class="dv">898</span>):</span>
+<span id="cb3-26"><a href="#cb3-26" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">, you are older than me."</span>)</span>
+<span id="cb3-27"><a href="#cb3-27" tabindex="-1"></a><span class="cf">elif</span> user_age <span class="op">&lt;</span> (myyear <span class="op">-</span> <span class="dv">898</span>):</span>
+<span id="cb3-28"><a href="#cb3-28" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">, I am older than you."</span>)</span>
+<span id="cb3-29"><a href="#cb3-29" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb3-30"><a href="#cb3-30" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Hey </span><span class="sc">{</span>user_name<span class="sc">}</span><span class="ss">, we are the same age!"</span>)</span>
+<span id="cb3-31"><a href="#cb3-31" tabindex="-1"></a></span>
+<span id="cb3-32"><a href="#cb3-32" tabindex="-1"></a><span class="co"># Print a 3-layer birthday cake with candles</span></span>
+<span id="cb3-33"><a href="#cb3-33" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Here is your birthday cake with candles:"</span>)</span>
+<span id="cb3-34"><a href="#cb3-34" tabindex="-1"></a><span class="cf">for</span> layer <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">3</span>):</span>
+<span id="cb3-35"><a href="#cb3-35" tabindex="-1"></a>    <span class="cf">if</span> layer <span class="op">==</span> <span class="dv">0</span>:  <span class="co"># Top layer</span></span>
+<span id="cb3-36"><a href="#cb3-36" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"   "</span> <span class="op">+</span> <span class="st">"🎂🎂🎂🎂🎂"</span>)  <span class="co"># Adjust number of candles as needed</span></span>
+<span id="cb3-37"><a href="#cb3-37" tabindex="-1"></a>    <span class="cf">elif</span> layer <span class="op">==</span> <span class="dv">1</span>:  <span class="co"># Middle layer</span></span>
+<span id="cb3-38"><a href="#cb3-38" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"  "</span> <span class="op">+</span> <span class="st">"🎂"</span> <span class="op">*</span> (user_age <span class="op">//</span> <span class="dv">2</span>))  <span class="co"># Staggered candles</span></span>
+<span id="cb3-39"><a href="#cb3-39" tabindex="-1"></a>    <span class="cf">else</span>:  <span class="co"># Bottom layer</span></span>
+<span id="cb3-40"><a href="#cb3-40" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">" "</span> <span class="op">+</span> <span class="st">"🎂"</span> <span class="op">*</span> (user_age <span class="op">//</span> <span class="dv">2</span> <span class="op">+</span> user_age <span class="op">%</span> <span class="dv">2</span>))  <span class="co"># Staggered candles</span></span></code></pre>
+</div>
+<p>Apart from the use of <strong>break</strong> - which we don’t allow
+in this unit, there are <em>many</em> errors and mistakes on
+understanding the code requirements.</p>
+<p>Some sample output:</p>
+<figure><img src="../fig/cakeGPT.png" alt="cakeGPT Output" class="figure mx-auto d-block"><div class="figcaption">cakeGPT Output</div>
+</figure><p>Now use your Test Plan to check the cakeGPT code (from above, or from
+your own prompt)</p>
+<p>Did the test plan find even more errors?</p>
+<p>It’s important to consider the risks when using generative AI. The
+code (and text) it produces will <strong>look</strong> appropriate and
+correct, hoever, it required a lot of proofing and may not include
+coding standards or other knowledge that may be implied in the
+scenario/specification.</p>
 </div>
 <div class="section level3">
 <h3 id="activity-6---surprise-packages">Activity 6 - Surprise packages<a class="anchor" aria-label="anchor" href="#activity-6---surprise-packages"></a></h3>
@@ -655,10 +703,15 @@ wasted).</li>
 <strong>Analysis</strong>: ?</li>
 <li>
 <strong>Synthesis</strong>: How does having a well-defined program
-and test design help with managing larger projects? (larger = longer
+and test design help with managing larger projects? (larger =&gt; longer
 duration, more coders)</li>
 <li>
-<strong>Evaluation</strong>: ?</li>
+<strong>Evaluation</strong>: You are leading a project which
+includes the development of code. The programmers have asked to be able
+to use generative AI (e.g. ChatGPT/copilot) to help them to develop code
+more quickly. What risks might that create for the project? What
+processes could you put in place to ensure the quality and correctness
+of the code??</li>
 </ol></div>
 </div>
 </div>
