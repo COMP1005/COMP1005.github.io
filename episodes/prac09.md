@@ -22,7 +22,30 @@ title: "Prac09: Quality and Testing"
 
 ### Introduction
 
-We will be using python notebooks for this practical to keep track of our steps and get use to how they work. The activities will surround the use of pandas to work with structured data.
+We will go through a short programming challenge to see how we develop code with high quality, and use testing to show that it meets our requirements - for valid and invalid inputs.
+
+The coding probelm we will use was a Practical Test 1 in a previous semester. 
+
+``` python
+myname = "Tim the Enchanter"
+myyear = 898
+
+print(f"Hello, my name is {myname}.")
+
+for i in range(myyear//100):
+    if i % 10 == 0:
+        print("*", end="")
+print()
+```
+
+Modify the code in PracTest1.py to: 
+
+1. Correct any errors - get the given code working  
+2. Change myname and myyear to be your details 
+3. Add code to ask the user their name and year of birth 
+4. In an appropriate loop, test that the year is valid, ask them to re-enter the year and continue looping until it is valid
+5. Based on the difference between your year and the user’s, print one of three comments – if you’re older, they’re older, or if you’re the same age. 
+6. Print out a 3-layer birthday cake with the number of candles to match the user’s age. Candles are staggered in two layers (hint: i%2 for alternating) 
 
 ### Activity 1 - Running a Jupyter notebook
 
