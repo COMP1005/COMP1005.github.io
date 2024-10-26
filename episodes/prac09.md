@@ -199,12 +199,75 @@ It's important to consider the risks when using generative AI. The code (and tex
 
 ### Activity 6 - Surprise packages
 
-Across the semester, we have imported packages including matplotlib, numpy and random, and learnt how to write and import our own modules. The lecture explained the process to creating and listing our own packages in the Python Package Index.
+Across the semester, we have imported packages including matplotlib, numpy and random, and learnt how to write and import our own modules. The lecture explained the process to creating and listing our own packages in the **Python Package Index**.
 
-In this activity, we'll look at the Python Package Index to see the range of packages available, and develop our spidey-senses to know which packages are "safe" and which might be more risky.
+In this activity, we'll vicit the Python Package Index to see the range of packages available, and develop our spidey-senses to know which packages are "safe" and which might be more risky.
 
-Open the Python Package Index website in a web browser: [https://pypi.org](https://pypi.org)
+Open the Python Package Index (PyPI) website in a web browser: [https://pypi.org](https://pypi.org) AS of this publishing date, there are 579,333 projects listed on PyPI.
 
+Choose *browse projects* (under the search box) and then open the *topics* on the left to see the application areas. As an example, we can choose *Astronomy* under *Scientific/Engineering*. With that filter on, there should be over 1600 entries, sorted in order of Relevance, by default. 
+
+Change the sorting to be by *Date Last Updated*. If you go to the last page in the listing, you'll see **chimera-python 0.1** has not been updated since May 12th 2008. Projects that have not been updated recently are of higher risk - noone is fixing errors or updating to new version of Python and any package dependencies. 
+
+There are 20 projects listed per page. How many astronomy projects have been updated in the last week?
+
+The version numbering also indicates the maturity of a project. Projects with a 0.1 or 0.2 versions are pre-release and are likely to change as they mature, get user feedback and errors are fixed. So choosing versions greater than 1.0 is recommended, 
+
+In the lecture, some considerations were listed for reducing risk when choosing packages:
+
+- Is it developed by an individual or community?
+-  How responsive are the developers?
+-  How recently has it been updated?
+-  Does it depend on other packages that are neglected?
+
+We'll look at a few examples...
+
+**AgeanTools**
+
+In amongst the Astronomy projects is one maintained by one of our guest lecturers: Dr Paul Hancock. With the astronomy filter on, put "Hancock" into the search and you'll find AegeanTools. Click on the Release History and you can see there have been ten releases over six years.
+
+Clicking through to the project home on github [https://github.com/PaulHancock/Aegean](https://github.com/PaulHancock/Aegean) you can see more details, including that there have been five contriubtors to the project. Under issues, there are 123 closed and 16 open - showing the team has been quite responsive to issues flagged by users.
+
+**pyuvdata**
+
+You can search directly for the package name, or enter search terms for MWA and Murchison, which will focus on the available python softare related to the Square Kilometre Array pathfinder - [Murchison Widefield Array](https://www.mwatelescope.org). This package is written to support scientists using a lot of different radio-telescopes, and specifically mentions MWA. The github page lists 36 contributor and at the current date, the last update was four days ago. There are 549 closed issues and 93 open.
+
+This package was chosen as an example as it has a long list of specific dependencies - packages that it needs installed to be able to run correctly. This can clash with other software installations... solutions can include python Environments and the use of tools such as Docker.
+
+```
+Required:
+- astropy >= 6.0
+- docstring_parser>=0.15
+- h5py >= 3.4
+- numpy >= 1.23
+- pyerfa >= 2.0.1.1
+- python >= 3.10
+- pyyaml >= 5.4.1
+- scipy >= 1.8
+- setuptools_scm >= 8.1
+
+Optional:
+- astropy-healpix >= 1.0.2 (for working with beams in HEALPix formats)
+- astroquery >= 0.4.4 (for enabling phasing to ephemeris objects using JPL-Horizons)
+- hdf5plugin >= 3.2.0 (for enabling bitshuffle and other hdf5 compression filters in uvh5 files)
+- lunarsky >=0.2.5 (for working with simulated datasets for lunar telescopes)
+- novas and novas_de405 (for using the NOVAS library for astrometry)
+- python-casacore >= 3.5.2 (for working with CASA measurement sets)
+
+The numpy and astropy versions are important, so make sure these are up to date.
+```
+
+Under insights in the github repository, they list the above dependencies, and also 107 repositories that are **dependent** on pyuvdat. Python and github make it possible and somewhat straight forward to extend on the work of others.
+
+**matplotlib**
+
+One last example is matplotlib. According to its github repository, there have been 1,477 contributors and it is used by 1.3 million programmers.
+
+Clicking through to the matplotlib website, there are many projects extending from matplotlib for various domains - geospacial, finance, astronomy and many more - [https://matplotlib.org/thirdpartypackages/](https://matplotlib.org/thirdpartypackages/).
+
+--
+
+Hopefully this exploration will help you to recognise which packages are safe to work with, and which might need to be avoided. Note that they are all **open source**, so you can see what is inside the code... but errors and malware may be hard to find.  The communities that develop and use packages usually keep these issues under control, as we all want to benefit from the sharing that PyPI (and github) provide.
 
 ### Submission
 
