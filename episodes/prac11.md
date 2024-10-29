@@ -4,8 +4,8 @@ title: "Prac11: Applications: Engineering and Science"
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- Now you have some knowledge and skills in coding, what will it take to use that ina field of your choice?
-- Who can I talk to that's already in space scince, chemistry, engineering etc?
+- Now you have some knowledge and skills in coding, what will it take to use that in a field of your choice?
+- Who can I talk to that's already in space science, chemistry, engineering etc?
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
