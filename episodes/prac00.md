@@ -51,8 +51,8 @@ In the laboratory:
 1. login to the machines with your Oasis login. 
 2. Once you're connected, open a web browser and go to [mydesktop.curtin.edu.au](https://mydesktop.curtin.edu.au).
 3. You can choose either the install or HTML option, but for the labs we will 
-use **VMware Horizon HTML Access**. You'll need to login again, making sure to select
-**STUDENT**. 
+use **Omnissa Horizon HTML Access**. You'll need to authenticate and login again, don't worry about selecting
+**STAFF/STUDENT** it will stay as STAFF. 
 4. Choose either **Computer Science Linux Lab** or **Curtin Global Linux** - this tells 
 the system which flavour of operating system you want to use. (they are both the same, 
 but can be useful as options when we have technical issues)
