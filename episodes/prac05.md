@@ -62,9 +62,9 @@ the code accordingly. **Hint:** look at split method, and list comprehensions in
 
 This time, go to the Bureau of Meteorology site and download the full list of weather data for 
 March. This time we will plot the min, max, 9am and 3pm temperatures... 
-http://www.bom.gov.au/climate/dwo/202303/html/IDCJDW6111.202303.shtml
+http://reg.bom.gov.au/climate/dwo/202603/html/IDCJDW6111.202603.shtml
 
-You can change the year and month by changing "202303" to another year+month (in two places)
+You can change the year and month by changing "202603" to another year+month (in two places)
 
 Save the data by scrolling down to the “Other Formats” section and right-clicking on the plain 
 text version. Save it to your ```Desktop``` or ```Prac05``` directory as ```marchweatherfull.csv```. 
