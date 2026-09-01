@@ -471,12 +471,14 @@ lecture…</p>
 <span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a><span class="co">#</span></span>
 <span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt </span>
 <span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a><span class="im">from</span> scipy <span class="im">import</span> ndimage</span>
-<span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a><span class="im">from</span> scipy <span class="im">import</span> misc</span>
-<span id="cb2-7"><a href="#cb2-7" tabindex="-1"></a></span>
-<span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a>face <span class="op">=</span> misc.face(gray<span class="op">=</span><span class="va">True</span>) </span>
-<span id="cb2-9"><a href="#cb2-9" tabindex="-1"></a>plt.imshow(face)</span>
-<span id="cb2-10"><a href="#cb2-10" tabindex="-1"></a>plt.imshow(face, cmap<span class="op">=</span>plt.cm.gray) </span>
-<span id="cb2-11"><a href="#cb2-11" tabindex="-1"></a>plt.show()</span></code></pre>
+<span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a><span class="im">#from</span> scipy <span class="im">import</span> misc (deprecated)</span>
+<span id="cb2-9"><a href="#cb2-7" tabindex="-1"></a><span class="im">from</span> scipy <span class="im">import</span> datasets</span>
+<span id="cb2-7"><a href="#cb2-8" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-9" tabindex="-1"></a>#face <span class="op">=</span> misc.face(gray<span class="op">=</span><span class="va">True</span>) (deprecated)</span>
+<span id="cb2-9"><a href="#cb2-10" tabindex="-1"></a>face <span class="op">=</span> datasets.face(gray<span class="op">=</span><span class="va">True</span>) </span>
+<span id="cb2-9"><a href="#cb2-11" tabindex="-1"></a>plt.imshow(face)</span>
+<span id="cb2-10"><a href="#cb2-12" tabindex="-1"></a>plt.imshow(face, cmap<span class="op">=</span>plt.cm.gray) </span>
+<span id="cb2-11"><a href="#cb2-13" tabindex="-1"></a>plt.show()</span></code></pre>
 </div>
 <p>Refer to the lecture slides and enter/run the code for shifting,
 rotating, cropping and pixelating.</p>
